@@ -16,11 +16,11 @@ These 3 expression do the same thing...
 * The world of assignment
 
 ```sh
-BAR = "FOO" # Assignment when the variable is actually used (??)
-BAR ?= "FOO" # Assignment now only if BAR is undefined (I can understand)
+BAR = "FOO"   # Assignment when the variable is actually used (??)
+BAR ?= "FOO"  # Assignment now only if BAR is undefined (I can understand)
 BAR ??= "FOO" # Assignment at the end of "the parsing process"
               # if BAR is undefined (Mmmm...)
-BAR := "FOO" # Assignment of the variable now (Ok so this is actually "=")
+BAR := "FOO"  # Assignment of the variable now (Ok so this is actually "=")
 ```
 
 
